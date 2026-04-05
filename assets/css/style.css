@@ -39,3 +39,34 @@ a {
 a:hover {
   color: #007acc;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+}
+
+nav li {
+  background: none;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #00bfff;
+}
