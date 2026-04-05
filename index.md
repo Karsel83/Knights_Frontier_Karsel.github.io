@@ -1,8 +1,8 @@
 ---
 layout: home
-title: "My Blog"
+author_profile: true
 ---
 
-# 👋 내 블로그 시작
+# 👋 환영합니다
 
-GitHub Pages로 만든 블로그입니다.
+이곳은 저의 개발 & 보안 블로그입니다.
