@@ -1,26 +1,64 @@
 <!DOCTYPE html>
-
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <title>Karsel Blog</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <h2>Karsel Blog</h2>
-        <ul>
-            <li><a href="/Knights_Frontier_Karsel.github.io/">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Posts</a></li>
-        </ul>
-    </nav>
-    <h1>🚀 Karsel Blog</h1>
-    <p>Knights Frontier에서 배운 것을 정리하고 공유하는 공간입니다.</p>
-    <h2>Recent Posts</h2>
-    <ul>
-        <li><a href="posts/first-post.html">첫 번째 글</a></li>
-    </ul>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="https://via.placeholder.com/100" alt="Profile" class="avatar">
+                <h2>Karsel</h2>
+                <p>A text-focused blog</p>
+            </div>
+            <nav class="side-nav">
+                <ul>
+                    <li><a href="/Knights_Frontier_Karsel.github.io/"><i class="fas fa-home"></i> HOME</a></li>
+                    <li><a href="#"><i class="fas fa-th-large"></i> CATEGORIES</a></li>
+                    <li><a href="#"><i class="fas fa-tag"></i> TAGS</a></li>
+                    <li><a href="#"><i class="fas fa-archive"></i> ARCHIVES</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> ABOUT</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-nav">
+                <span>Home</span>
+                <div class="search-bar"><i class="fas fa-search"></i> Search...</div>
+            </header>
+
+            <div class="post-list">
+                <article class="post-card">
+                    <div class="post-info">
+                        <h3><a href="posts/first-post.html">첫 번째 글 (First Post)</a></h3>
+                        <p>이 블로그는 Knights Frontier에서 배운 내용을 정리하기 위해 만들었습니다...</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> Apr 5, 2026</span>
+                            <span><i class="far fa-folder"></i> Blogging</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+        </main>
+
+        <aside class="right-panel">
+            <div class="panel-section">
+                <h4>Recently Updated</h4>
+                <ul>
+                    <li><a href="#">첫 번째 글</a></li>
+                </ul>
+            </div>
+            <div class="panel-section">
+                <h4>Trending Tags</h4>
+                <div class="tags">
+                    <span class="tag">CTF</span> <span class="tag">Reversing</span>
+                </div>
+            </div>
+        </aside>
+    </div>
 </body>
 </html>
