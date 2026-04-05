@@ -1,7 +1,10 @@
 title: "Karsel Blog"
 description: "보안 & 개발 블로그"
 
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+
+plugins:
+  - jekyll-include-cache
 
 author:
   name: "김경빈"
