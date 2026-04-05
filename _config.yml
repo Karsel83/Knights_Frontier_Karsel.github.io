@@ -1,25 +1,6 @@
 title: "Karsel Blog"
-description: "보안 & 개발 블로그"
-
-
-author:
-  name: "김경빈"
-  bio: "보안과 개발 공부 기록"
 
 remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-include-cache
-nav:
-  - title: "개발"
-    url: /categories/development/
-  - title: "CTF/Wargame"
-    url: /categories/ctf/
-  - title: "BugBounty"
-    url: /categories/bugbounty/
-  - title: "블로그/기술문서"
-    url: /categories/blog/
-  - title: "논문/컨퍼런스"
-    url: /categories/paper/
-  - title: "공모전/자격증"
-    url: /categories/cert/
