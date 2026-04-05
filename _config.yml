@@ -1,13 +1,15 @@
 title: "Karsel Blog"
 description: "보안 & 개발 블로그"
 
-remote_theme: mmistakes/minimal-mistakes
 
 author:
   name: "김경빈"
   bio: "보안과 개발 공부 기록"
 
+remote_theme: mmistakes/minimal-mistakes
+
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 nav:
