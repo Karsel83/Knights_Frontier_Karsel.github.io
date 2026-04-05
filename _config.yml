@@ -1,8 +1,0 @@
-title: "Karsel Blog"
-
-remote_theme: mmistakes/minimal-mistakes
-
-plugins:
-  - jekyll-include-cache
-header:
-  nav: main
